@@ -225,32 +225,11 @@ h3 {
 .project {
     background-color: #0f172a;
     border: 1px solid #263244;
-    border-top: 4px solid #38bdf8;
     padding: 20px;
     border-radius: 8px;
     min-height: 210px;
     display: flex;
     flex-direction: column;
-}
-
-.project:nth-child(2) {
-    border-top-color: #60a5fa;
-}
-
-.project:nth-child(3) {
-    border-top-color: #22d3ee;
-}
-
-.project:nth-child(4) {
-    border-top-color: #818cf8;
-}
-
-.project:nth-child(5) {
-    border-top-color: #0ea5e9;
-}
-
-.project:nth-child(6) {
-    border-top-color: #2dd4bf;
 }
 
 .project p {
