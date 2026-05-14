@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef1f5;
+    color: #222;
+    line-height: 1.6;
+}
+
+.container {
+    width: 85%;
+    max-width: 950px;
+    margin: auto;
+}
+
+header {
+    background-color: #243447;
+    color: white;
+    padding: 45px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin: 8px 0 20px;
+    color: #d9e2ec;
+}
+
+.button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #243447;
+    padding: 9px 18px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #e7edf3;
+}
+
+nav {
+    background-color: #1b2838;
+    text-align: center;
+    padding: 12px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 14px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 25px 0;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 18px;
+    padding: 24px;
+    border: 1px solid #d7dde5;
+    border-radius: 6px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #243447;
+    border-bottom: 2px solid #d7dde5;
+    padding-bottom: 8px;
+}
+
+h3 {
+    margin-top: 0;
+    color: #2d4059;
+}
+
+.box {
+    background-color: #f8fafc;
+    border-left: 4px solid #2d4059;
+    padding: 15px;
+}
+
+.box p {
+    margin: 5px 0;
+}
+
+.skills {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills li {
+    display: inline-block;
+    background-color: #eef3f8;
+    border: 1px solid #d4dde8;
+    padding: 8px 14px;
+    margin: 6px;
+    border-radius: 4px;
+}
+
+.project {
+    background-color: #f8fafc;
+    border: 1px solid #d7dde5;
+    padding: 16px;
+    margin-top: 14px;
+    border-radius: 5px;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+.project a,
+#contact a {
+    color: #1f5f99;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover,
+#contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #243447;
+    color: white;
+    text-align: center;
+    padding: 16px;
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        width: 92%;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav {
+        position: static;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    section {
+        padding: 18px;
+    }
+}
